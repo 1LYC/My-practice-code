@@ -103,6 +103,7 @@
     <None Include="res\ATSEngine.rc2" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\utils\common\WSync.cpp" />
     <ClCompile Include="ATSEngine.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -110,6 +111,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\utils\ats\ATSDLL.h" />
+    <ClInclude Include="..\utils\common\Singleton.h" />
+    <ClInclude Include="..\utils\common\WAfx.h" />
+    <ClInclude Include="..\utils\common\WSync.h" />
+    <ClInclude Include="..\utils\common\WThread.h" />
     <ClInclude Include="ATSEngine.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />

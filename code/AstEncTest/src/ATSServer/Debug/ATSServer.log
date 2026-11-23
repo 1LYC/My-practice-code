@@ -1,0 +1,39 @@
+﻿生成启动时间为 2026/11/15 23:20:11。
+     1>项目“D:\code\My-practice-code\code\AstEncTest\src\ATSServer\ATSServer.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“D:\code\My-practice-code\code\AstEncTest\Debug\”。
+       InitializeBuildStatus:
+         正在创建“Debug\ATSServer.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\software\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D ATS_DLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\ATSServer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\software\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D ATS_DLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\ATSServer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ATSServer.cpp ATSServerDlg.cpp LogMgr.cpp
+         LogMgr.cpp
+         ATSServerDlg.cpp
+         ATSServer.cpp
+         正在生成代码...
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         d:\software\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\My-practice-code\code\AstEncTest\Debug\ATSServer.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\ATSServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\code\My-practice-code\code\AstEncTest\Debug\ATSServer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\My-practice-code\code\AstEncTest\Debug\ATSServer.lib" /MACHINE:X86 Debug\ATSServer.res
+         Debug\ATSServer.exe.embed.manifest.res
+         Debug\ATSServer.obj
+         Debug\ATSServerDlg.obj
+         Debug\LogMgr.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\ATSServer.exe.embed.manifest" /manifest Debug\ATSServer.exe.intermediate.manifest d:\software\VC\Include\Manifest\dpiaware.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         ATSServer.vcxproj -> D:\code\My-practice-code\code\AstEncTest\Debug\ATSServer.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\ATSServer.unsuccessfulbuild”。
+         正在对“Debug\ATSServer.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\code\My-practice-code\code\AstEncTest\src\ATSServer\ATSServer.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.25

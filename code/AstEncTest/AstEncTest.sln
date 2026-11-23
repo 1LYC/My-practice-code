@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ATSEngine", "ATSEngine\ATSEngine.vcxproj", "{3533E0DA-3BEB-4CDD-BFEF-B1CCA523365E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ATSEngine", "src\ATSEngine\ATSEngine.vcxproj", "{3533E0DA-3BEB-4CDD-BFEF-B1CCA523365E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ATSServer", "src\ATSServer\ATSServer.vcxproj", "{CF647C07-0657-4982-8EBF-A65BA2169936}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Duilib", "src\Duilib\Duilib.vcxproj", "{230DD32C-D883-49FB-B4EF-400C0BF1F200}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +17,14 @@ Global
 		{3533E0DA-3BEB-4CDD-BFEF-B1CCA523365E}.Debug|Win32.Build.0 = Debug|Win32
 		{3533E0DA-3BEB-4CDD-BFEF-B1CCA523365E}.Release|Win32.ActiveCfg = Release|Win32
 		{3533E0DA-3BEB-4CDD-BFEF-B1CCA523365E}.Release|Win32.Build.0 = Release|Win32
+		{CF647C07-0657-4982-8EBF-A65BA2169936}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CF647C07-0657-4982-8EBF-A65BA2169936}.Debug|Win32.Build.0 = Debug|Win32
+		{CF647C07-0657-4982-8EBF-A65BA2169936}.Release|Win32.ActiveCfg = Release|Win32
+		{CF647C07-0657-4982-8EBF-A65BA2169936}.Release|Win32.Build.0 = Release|Win32
+		{230DD32C-D883-49FB-B4EF-400C0BF1F200}.Debug|Win32.ActiveCfg = Debug|Win32
+		{230DD32C-D883-49FB-B4EF-400C0BF1F200}.Debug|Win32.Build.0 = Debug|Win32
+		{230DD32C-D883-49FB-B4EF-400C0BF1F200}.Release|Win32.ActiveCfg = Release|Win32
+		{230DD32C-D883-49FB-B4EF-400C0BF1F200}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

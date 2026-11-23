@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="源文件">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="头文件">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
@@ -13,11 +9,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{529dd3a0-08e0-46f0-b1b8-4c451e9b9c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\ats">
+      <UniqueIdentifier>{902efc3f-5fcf-405a-a5d0-2a4e5aa9c246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\common">
+      <UniqueIdentifier>{87177035-004f-44a8-92b2-dcc06b578b66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="入口">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
     <None Include="ATSEngine.def">
-      <Filter>源文件</Filter>
+      <Filter>入口</Filter>
     </None>
     <None Include="res\ATSEngine.rc2">
       <Filter>资源文件</Filter>
@@ -25,17 +34,17 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ATSEngine.cpp">
-      <Filter>源文件</Filter>
+      <Filter>入口</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
-      <Filter>源文件</Filter>
+      <Filter>入口</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\common\WSync.cpp">
+      <Filter>utils\common</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ATSEngine.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="stdafx.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="targetver.h">
@@ -43,6 +52,22 @@
     </ClInclude>
     <ClInclude Include="Resource.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\common\Singleton.h">
+      <Filter>utils\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\common\WAfx.h">
+      <Filter>utils\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\common\WThread.h">
+      <Filter>utils\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\common\WSync.h">
+      <Filter>utils\common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="..\utils\ats\ATSDLL.h">
+      <Filter>utils\ats</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
